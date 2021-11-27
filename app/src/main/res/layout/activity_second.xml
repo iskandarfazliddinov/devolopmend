@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_activity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/image_pavel_durov_2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pavell Durov"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:text="Pavel Durov (Russian: Па́вел Вале́рьевич Ду́ров; born 10 October 1984) is a Russian-born Kittitian, French entrepreneur who is best known for being the founder of the social networking site VK and later of Telegram Messenger.[4] He is the younger brother of Nikolai Durov. Since being dismissed as CEO of VK in 2014,[5] the Durov brothers have travelled the world in self-imposed exile[6] as citizens of Saint Kitts and Nevis.[7] In 2017, Pavel joined the World Economic Forum (WEF) Young Global Leaders as a representative of Finland.[8][9] According to the official French government gazette, Durov became a citizen of France on August 25, 2021"/>
+
+</LinearLayout>

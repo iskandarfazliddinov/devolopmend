@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".four_activity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/mark_zuckerberg"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mark Zuckerberg"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:text="Zuckerbergning otasi yahudiy stomatolog boʻlib ishlagan, onasi esa — psixolog yahudiy boʻlgan. U maktab yillarida kompyuter dasturiga ishqivoz edi, tarmoq versiyasida Risk oʻyinlarini ishlab chiqqan. Mark Microsoft va AOL kompaniyalar ishga joylashish haqidagi taklifini rad etadi, u Harvard universitetining psixologiya fakultetiga oʻqishga kiradi[4]. Mark Garvardda qoʻshimchasiga AT kurslariga ham qatnardi.
+
+Ayni oʻsha Harvard vaqtlari Chris Hughes bilan birgalikda Facebook ijtimoiy tarmoqni yaratishni boshlashadi. Unga moliyaviy yordamni kelib chiqishi braziliyalik boʻlgan talaba Eduardo Saverin koʻrsatdi. Mark bir necha bor hakerlikka qiziqishi boʻlgan.[5] Uning urinishlari Eduardo Saverin kompaniya boshqaruvidan chetlatdi, oxir-oqibat 2005-yilda ishni sudda koʻrib chiqishgacha bordi.
+
+2009-yil yanvar oyida Mark Palo-Alto sahrida Yuriy Milner bilan tanishib oladi[6]. 2009-yil 26-may bitim imzolaydi, unga koʻra DST 200 mln AQSh dollari evaziga Facebook aksiyasining 1,96 % foizini sotib oladi.
+
+Mark yahudiy oilada tarbiya topgan boʻlsa-da, oʻzini ateist, deb taʼriflaydi."/>
+</LinearLayout>

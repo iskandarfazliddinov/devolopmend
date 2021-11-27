@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".three_activity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/image_bill_gates_2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:text="Bill Gatese"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:text="William H. Gates, III ( Engl.  William Henry Gates III ; 28 October 1955 , Seattle [5] , Washington ), better known as Bill Gates ( Engl.  Bill Gates ) [6] [7]  - American businessman and public figure , philanthropist , co-founder (with Paul Allen ) and former largest shareholder of Microsoft... Until June 2008, he was the head of the company; after leaving the post, he remained in the position of its non-executive chairman of the board of directors. He is also co-chairman of the Bill  Melinda Gates Foundation , a member of the board of directors of Berkshire Hathaway , and the CEO of Cascade investment .
+
+In the period from 1996 to 2007, from 2009 to 2016 - the richest person in the world according to Forbes magazine . As of November 10, 2020, Bill Gates's fortune is estimated at $ 119.1 billion. He ranks second in the rank"/>
+</LinearLayout>
